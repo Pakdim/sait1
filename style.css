@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    align-items: center;
+}
+.header-menu{
+    display: flex;
+    list-style: none;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #000;
+}
+.header-menu li a:hover {
+    background-color: #ffbb42;
+    color: #ffffff;
+}
+.header-menu li a{
+    color: inherit;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    transition: .3s;
+}
+main .container{
+    justify-content: center;
+}
+.registation-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.registation-block h2{
+    font-family: 'Roboto';
+}
+main{
+    background-color: #709dca;
+}
+.qoute-form{
+    padding: 20px 10px;
+}
+.qoute-form input{
+    padding: 10px;
+}
+.qoute-form input[type="button"]{
+    background-color: #ffbb42;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
